@@ -6,7 +6,7 @@ export default function Footer() {
     <Box
       sx={(theme) => ({
         backgroundColor: "#f5f5f5",
-        padding: "20px"
+        padding: "20px",
       })}
     >
       <Flex
@@ -14,8 +14,8 @@ export default function Footer() {
         align={'center'}
         direction={'column'}
       >
-        <Text fw={700} fz="sm" ta={'center'}>@2023 Lorem ipsum dolor sit amet consectetur adipisicing elit</Text>
-        <Text fz="sm" fw={500} ta={'center'}>lorem ipsum dolor</Text>
+        <Text fw={700} fz="sm" ta={'center'}>@2023 INKNARA</Text>
+        <Text fz="sm" fw={500} ta={'center'}>Operational Office</Text>
         <Text fz="xs" ta={'center'}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio repellat ratione </Text>
         <Text fz="sm" fw={500} ta={'center'}>lorem ipsum</Text>
         <Text fz="xs" ta={'center'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio</Text>
