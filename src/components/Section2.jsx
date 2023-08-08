@@ -21,20 +21,20 @@ const Section2 = () => {
                             { minWidth: 1200, cols: 3 },
                         ]}>
                         <Paper shadow="sm" radius="md" p="xl" py={50} withBorder align="center">
-                            <Title order={3} mb={8}>20+</Title>
-                            <Text size={24}>
+                            <Title order={3} mb={8} color='blue'>20+</Title>
+                            <Text size={18}>
                                 Years Of Experience
                             </Text>
                         </Paper>
                         <Paper shadow="sm" radius="md" p="xl" py={50} withBorder align="center">
-                            <Title order={3} mb={8}>8</Title>
-                            <Text size={24}>
+                            <Title order={3} mb={8} color='blue'>8</Title>
+                            <Text size={18}>
                                 Province Coverage
                             </Text>
                         </Paper>
                         <Paper shadow="sm" radius="md" p="xl" py={50} withBorder align="center">
-                            <Title order={3} mb={8}>AAA</Title>
-                            <Text size={24}>
+                            <Title order={3} mb={8} color='blue'>AAA</Title>
+                            <Text size={18}>
                                 Service Excellence
                             </Text>
                         </Paper>
