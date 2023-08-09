@@ -54,9 +54,12 @@ export default function Hero() {
             className={cx(classes.control, classes.secondaryControl)}
             variant="white"
             size="lg"
-            // onClick={() =>
-            //   window.open("/pdf/A-Course-Mentor-Lists.pdf", "_blank")
-            // }
+            onClick={() =>
+              window.open(
+                "https://api.whatsapp.com/send?phone=6281319985094",
+                "_blank"
+              )
+            }
           >
             Contact Now
           </Button>
