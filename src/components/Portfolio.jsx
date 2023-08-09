@@ -29,7 +29,14 @@ const Portfolio = () => {
         Industry
       </Text>
       <CustomCarousel imagesData={industrySector} />
-      <Button color="teal" mt={40} w={"100%"} size="lg">
+      <Button
+        size="lg"
+        variant="gradient"
+        gradient={{ from: "#666684", to: "#000030", deg: 35 }}
+        w={"100%"}
+        mt={40}
+      >
+        {" "}
         Lihat Portfolio Lengkap
       </Button>
     </WrapperInknara>
