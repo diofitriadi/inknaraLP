@@ -10,6 +10,7 @@ import {
   SimpleGrid,
 } from "@mantine/core";
 import styled from "@emotion/styled";
+import Link from "next/link";
 
 const StyledPaper = styled(Paper)`
   display: flex;
@@ -123,14 +124,19 @@ const Section2 = () => {
           </SimpleGrid>
         </Box>
         <Box align="center">
-          <Button
-            size="lg"
-            variant="gradient"
-            gradient={{ from: "#666684", to: "#000030", deg: 35 }}
+          <Link
+            href="https://api.whatsapp.com/send?phone=6281319985094"
+            target="_blank"
           >
-            {" "}
-            Contact Now!
-          </Button>
+            <Button
+              size="lg"
+              variant="gradient"
+              gradient={{ from: "#666684", to: "#000030", deg: 35 }}
+            >
+              {" "}
+              Contact Now!
+            </Button>
+          </Link>
         </Box>
       </Container>
     </section>
