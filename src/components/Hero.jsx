@@ -15,12 +15,12 @@ export default function Hero() {
         src="/logo.png"
         alt="Logo"
         className={classes.logo}
-        width={50}
-        height={50}
+        width={250}
+        height={65}
       />
 
       <div className={classes.inner}>
-        <Title className={classes.title} mt={30}>
+        <Title className={classes.title} mt={70}>
           SELAMAT DATANG !
         </Title>
         <Text className={classes.title}>
